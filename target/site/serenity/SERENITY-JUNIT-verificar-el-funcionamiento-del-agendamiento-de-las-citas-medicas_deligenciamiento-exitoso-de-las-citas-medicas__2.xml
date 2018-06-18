@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Verificar el funcionamiento del agendamiento de las citas medicas" skipped="0" tests="1" time="46.59" timestamp="2018-06-17T20:51:32.336-05:00[America/Bogota]"><testcase name="Deligenciamiento exitoso de las citas medicas"><failure message="The following error occurred: Expected enabled element was not enabled&#10;Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'&#10;System info: host: 'CHMEPDBZ4Q12', ip: '192.168.0.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'CHMEPDBZ4Q12', ip: '192.168.0.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</failure><system-err>The following error occurred: Expected enabled element was not enabled
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'CHMEPDBZ4Q12', ip: '192.168.0.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown&#13;
+Hospital.pageobjects.CitasPage.MenuDoctor(CitasPage.java:176)&#13;
+Hospital.steps.CitasSteps.ingresoInformacionCitas(CitasSteps.java:30)&#13;
+Hospital.definition.CitasDefinition.diligencio_el_formulario_de_agendamiento_de_citas_medicas(CitasDefinition.java:31)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+</system-err></testcase></testsuite>

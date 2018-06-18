@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Verificar el funcionamiento del agendamiento de las citas medicas" skipped="0" tests="1" time="45.95" timestamp="2018-06-17T22:28:50.099-05:00[America/Bogota]"><testcase name="Deligenciamiento con errores de las citas medicas"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+Util.AmbienteDesarrollo.getAbsoluteResourceName(AmbienteDesarrollo.java:37)&#13;
+Util.AmbienteDesarrollo.getResourceAsFile(AmbienteDesarrollo.java:71)&#13;
+Util.AmbienteDesarrollo.getResourceAsStream(AmbienteDesarrollo.java:52)&#13;
+Util.Propiedades.getPropiedades(Propiedades.java:15)&#13;
+Hospital.steps.CitasSteps.ingresoInformacionCitas(CitasSteps.java:59)&#13;
+Hospital.definition.CitasDefinition.diligencio_el_formulario_de_agendamiento_de_citas_medicas(CitasDefinition.java:31)&#13;
+✽.When Diligencio el formulario de agendamiento de citas medicas(src/test/resources/features/CitasMedicas.feature:21)&#13;
+</system-err></testcase></testsuite>
