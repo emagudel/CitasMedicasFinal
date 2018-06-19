@@ -29,7 +29,7 @@ public class CitasSteps {
 	
 		if (data.getOrientacion().equals("Acierto")) {
 
-			if (navegador.equals("chrome")) {
+			if (navegador.equals("chrome") || navegador.equals("firefox")) {
 				pageCitas.MenuDoctor();
 			}else {
 				pageCitas.MenuDoctor();
@@ -62,7 +62,7 @@ public class CitasSteps {
 		
 		if (data.getOrientacion().equals("Error")) {
 			
-			if (navegador.equals("chrome")) {
+			if (navegador.equals("chrome") || navegador.equals("firefox")) {
 				pageCitas.MenuCita();
 			}else {
 				pageCitas.MenuCita();
