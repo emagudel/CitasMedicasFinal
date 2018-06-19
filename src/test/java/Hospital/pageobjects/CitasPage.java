@@ -10,6 +10,8 @@ import static org.junit.Assert.assertTrue;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
+import Hospital.model.CargarDatos;
+import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -191,18 +193,24 @@ public class CitasPage extends PageObject {
 		}
 
 		public void verificarAcierto() {
+			CargarDatos data;
+			data = Serenity.sessionVariableCalled("datos");
 			boolean result = false;
 			String mensajeOK = msgAcierto.getText();
-			if (mensajeOK.contains("Datos guardados correctamente.")) {
+			String mensajeDataOk = data.getResultadoEsperado();
+			if (mensajeOK.contains(mensajeDataOk)) {
 				result = true;
 			}
 			assertTrue("Verificacion exitosa", result);
 		}
 		
 		public void verificarError() {
+			CargarDatos data;
+			data = Serenity.sessionVariableCalled("datos");
 			boolean result = false;
 			String mensajeERR = msgAcierto.getText();
-			if (mensajeERR.contains("*El campo 'Documento de identidad' no se encuentra entre nuestros doctores.")) {
+			String mensajeDataErr = data.getResultadoEsperado();
+			if (mensajeERR.contains(mensajeDataErr)) {
 				result = true;
 			}
 			assertTrue("Verificacion exitosa", result);

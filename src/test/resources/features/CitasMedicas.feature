@@ -25,4 +25,4 @@ Feature: Verificar el funcionamiento del agendamiento de las citas medicas
     
 	Examples: 
 	|orientacion	|nombreDoctor	|apellidoDoctor	|telefonoDoctor	|tipoDocDoctor	      |numeroDocDoctor	|nombrePaciente	|apellidoPaciente	|telefonoPaciente	|tipoDocPaciente	    |numeroDocPaciente	|diaCita	  |observacion	|resultadoEsperado|
-	|Error	      |Sofia	      |Gomez	        |4051233	      |Cédula de ciudadanía	|90     	        |Jose	          |Lopez	          |3004005001	      |Cédula de ciudadanía	|73111111	          |06/20/2018	|Cita urgente	|Datos guardados correctamente.|
+	|Error	      |Sofia	      |Gomez	        |4051233	      |Cédula de ciudadanía	|90     	        |Jose	          |Lopez	          |3004005001	      |Cédula de ciudadanía	|73111111	          |06/20/2018	|Cita urgente	|*El campo 'Documento de identidad' no se encuentra entre nuestros doctores.|
