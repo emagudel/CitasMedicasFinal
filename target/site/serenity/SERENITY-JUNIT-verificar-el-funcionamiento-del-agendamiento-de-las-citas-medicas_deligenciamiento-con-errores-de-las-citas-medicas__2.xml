@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Verificar el funcionamiento del agendamiento de las citas medicas" skipped="0" tests="1" time="56.6" timestamp="2018-06-19T17:20:54.542-05:00[America/Bogota]"><testcase name="Deligenciamiento con errores de las citas medicas"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Timed out waiting 45 seconds for Firefox to start.&#10;Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'&#10;System info: host: 'CHMEPDBZ4Q12', ip: '10.18.8.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'&#10;Driver info: driver.version: FirefoxDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Timed out waiting 45 seconds for Firefox to start.
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'CHMEPDBZ4Q12', ip: '10.18.8.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
-Driver info: driver.version: FirefoxDriver</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Timed out waiting 45 seconds for Firefox to start.
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'CHMEPDBZ4Q12', ip: '10.18.8.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
-Driver info: driver.version: FirefoxDriver&#13;
-Hospital.steps.CitasSteps.ingresoPortalCitas(CitasSteps.java:23)&#13;
-Hospital.definition.CitasDefinition.ingreso_a_la_funcionalidad_de_agendar_citas_del_hospital(CitasDefinition.java:23)&#13;
-org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
-org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Verificar el funcionamiento del agendamiento de las citas medicas" skipped="0" tests="1" time="22.16" timestamp="2018-06-21T18:32:25.825-05:00[America/Bogota]"><testcase name="Deligenciamiento con errores de las citas medicas"/></testsuite>
